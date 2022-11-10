@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>Assignment2 Day4</title>
+
+<style>
+ 
+  body{
+            margin:0 100 0 100;
+            padding:10px;			
+  }
+  
+  
+  p{
+     display:flex;
+	 justify-content:center;
+	 background-color:orange;
+	 padding:10px;
+	 border-radius:10px;
+	
+  }
+  
+  button{
+  
+      padding:10px;
+	  border-radius:10px;
+	  cursor:pointer;
+	  background:black;
+	  color:white;
+  
+  }
+  
+  button:hover {
+        background:white;
+        color:black;
+       
+  }
+  
+</style>
+
+<script>
+   function c1(){
+       var arr = document.getElementById("d1");
+	  
+	   arr.style.background = "gray";
+	   arr.style.color = "white";
+	     
+   }
+   
+
+</script>
+
+
+</head>
+
+<body>
+
+<p id="d1"> DOM </p>
+
+<button onclick = "c1()">Click Here</button>
+</body>
+
+</html>
